@@ -107,7 +107,7 @@ function Calculator() {
     <main className="flex gap-2 flex-col md:p-8" >
       <Card>
         <CardHeader>
-          <CardTitle>Crea un proyecto</CardTitle>
+          <CardTitle>Carga las medidas</CardTitle>
           <CardDescription>Agrega las medidas de la ventana</CardDescription>
         </CardHeader>
         <CardContent>

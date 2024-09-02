@@ -19,7 +19,7 @@ export function Nav() {
                     Home
                 </a>
                 <a href="/calculator" className={`transition-colors hover:text-foreground ${pathname === '/calculator' ? 'text-foreground' : 'text-muted-foreground'}`}>
-                    Calculator
+                    Calculadora
                 </a>
             </nav>
             <Sheet>
@@ -39,11 +39,11 @@ export function Nav() {
                             <Package2 className="h-6 w-6" />
                             <span className="sr-only">home</span>
                         </a>
-                        <a href="#" className="hover:text-foreground">
+                        <a href="/" className="hover:text-foreground">
                             Home
                         </a>
                         <a href="/calculator" className="text-muted-foreground hover:text-foreground">
-                            Calculator
+                            Calculadora
                         </a>
                     </nav>
                 </SheetContent>
